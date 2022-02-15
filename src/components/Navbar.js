@@ -9,6 +9,7 @@ function Navbar(props) {
   return (
     <nav className={classes.nav}>
       <img
+        alt="airbnb-logo"
         className={classes.navLogo}
         src={require("../images/airbnb-logo.png")}
       />

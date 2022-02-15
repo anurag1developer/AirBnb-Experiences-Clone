@@ -20,7 +20,11 @@ const Card = (props) => {
         alt={props.title}
       />
       <div className="card--stats">
-        <img className="card--star" src={require("../images/star.png")} />
+        <img
+          className="card--star"
+          alt="star"
+          src={require("../images/star.png")}
+        />
         <span>{props.stats.rating}</span>
         <span className="gray">({props.stats.reviewCount}) • </span>
         <span className="gray">{props.location}</span>

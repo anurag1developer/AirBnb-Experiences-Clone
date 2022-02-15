@@ -6,6 +6,7 @@ function Hero() {
   return (
     <section className={classes.hero}>
       <img
+        alt="photo-grid"
         className={classes.heroPhoto}
         src={require("../images/photo-grid.png")}
       />
