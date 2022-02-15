@@ -17,6 +17,7 @@ const Card = (props) => {
       <img
         src={require(`../../public/images/${props.coverImg}`)}
         className="card--image"
+        alt={props.title}
       />
       <div className="card--stats">
         <img className="card--star" src={require("../images/star.png")} />
